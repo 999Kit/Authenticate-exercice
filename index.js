@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const port = 4000;
 const expressHbs = require("express-handlebars");
+const path = require('path');
 
 const cookieParser = require("cookie-parser")
 const session = require("express-session")
