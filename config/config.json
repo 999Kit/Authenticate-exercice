@@ -1,0 +1,35 @@
+{
+  "development": {
+    "username": "kiet",
+    "password": "aURkc3EKlLqu6If2DAEgrlmB2chKyUNw",
+    "database": "tuan8db_gd4g",
+    "host": "dpg-clhhk0vjc5ks73elp360-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "kiet",
+    "password": "aURkc3EKlLqu6If2DAEgrlmB2chKyUNw",
+    "database": "tuan8db_gd4g",
+    "host": "dpg-clhhk0vjc5ks73elp360-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
